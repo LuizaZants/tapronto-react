@@ -4,34 +4,40 @@
 
 ---
 
-## 📱 Sobre o projeto
+## Sobre o projeto
 
 O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a [TheMealDB API](https://www.themealdb.com/api.php) para exibir receitas de diversas culinárias do mundo. Possui rotas dinâmicas, tradução automática das instruções e sistema de favoritos.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 🏠 **Home** com categorias, culinárias e seções de destaque
-- 🔍 **Busca** por nome do prato ou ingrediente (em português!)
-- 📖 **Detalhes** de cada receita com ingredientes e modo de preparo traduzido
-- ❤️ **Favoritos** salvos localmente no navegador
-- 🌍 **10 culinárias** — Italiana, Brasileira, Japonesa e muito mais
-- 🔗 **Rotas dinâmicas** — `/receita/:id`, `/categoria/:id`, `/culinaria/:id`
+-  **Home** com categorias, culinárias e seções de destaque
+-  **Busca** por nome do prato ou ingrediente (em português!)
+-  **Detalhes** de cada receita com ingredientes e modo de preparo traduzido
+-  **Favoritos** salvos localmente no navegador
+-  **10 culinárias** — Italiana, Brasileira, Japonesa e muito mais
+-  **Rotas dinâmicas** — `/receita/:id`, `/categoria/:id`, `/culinaria/:id`
 
 ---
 
-## 🖼️ Prints da aplicação
+## Prints da aplicação
 
-> (Adicione seus prints aqui)
+## Prints da aplicação
 
-| Home | Detalhe | Busca |
+| Home | Home 2 | Home 3 |
 |---|---|---|
-| ![home](prints/home.png) | ![detail](prints/detail.png) | ![search](prints/search.png) |
+| ![home](prints/printshome.png) | ![home2](prints/printshome2.png) | ![home3](prints/printshome3.png) |
 
----
+| Detalhe | Modo de Preparo | Nutricional |
+|---|---|---|
+| ![detail](prints/printsdetail.png) | ![detail2](prints/printsdetail2.png) | ![detail3](prints/printsdetail3.png) |
 
-## 🏗️ Arquitetura
+| Busca | Busca 2 | Favoritos |
+|---|---|---|
+| ![search](prints/printssearch.png) | ![search2](prints/printssearch2.png) | ![favorites](prints/printsfavorite.png) |
+
+##  Arquitetura
 
 ```
 src/
@@ -61,7 +67,7 @@ React Pages → mealService.js → TheMealDB API
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 | Tecnologia | Versão | Uso |
 |---|---|---|
@@ -74,7 +80,7 @@ React Pages → mealService.js → TheMealDB API
 
 ---
 
-## 🚀 Como rodar o projeto
+##  Como rodar o projeto
 
 ### Pré-requisitos
 
@@ -110,11 +116,11 @@ npm run build
 
 ---
 
-## 🌐 Deploy
+##  Deploy
 
 A aplicação está hospedada na Vercel:
 
-🔗 **[link-do-deploy-aqui]**
+🔗 https://tapronto-react.vercel.app/
 
 > Para fazer deploy na Vercel:
 > ```bash
@@ -124,7 +130,7 @@ A aplicação está hospedada na Vercel:
 
 ---
 
-## 📡 API utilizada
+##  API utilizada
 
 **[TheMealDB](https://www.themealdb.com/api.php)**
 
@@ -139,6 +145,6 @@ A aplicação está hospedada na Vercel:
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 Desenvolvido por **Luiza Souza** — projeto individual da disciplina de Desenvolvimento Web.
