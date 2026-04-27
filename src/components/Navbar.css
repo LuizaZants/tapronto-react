@@ -1,0 +1,102 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--background);
+  border-bottom: 1px solid var(--divider);
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+  position: relative;
+}
+
+.navbar-side {
+  flex: 1;
+  display: flex;
+}
+
+.navbar-actions {
+  justify-content: flex-end;
+}
+
+.navbar-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--text-dark);
+  text-decoration: none;
+}
+
+.navbar-logo span {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: var(--text-muted);
+  font-size: 20px;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-btn:hover {
+  color: var(--primary);
+  background: var(--cream);
+}
+
+.cuisine-bar {
+  border-top: 1px solid var(--divider);
+  padding: 0 40px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 4px;
+  scrollbar-width: none;
+}
+
+.cuisine-bar::-webkit-scrollbar { display: none; }
+
+.cuisine-separator {
+  color: var(--divider);
+  font-size: 14px;
+  padding: 0 6px;
+  user-select: none;
+}
+
+.cuisine-item {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-dark);
+  letter-spacing: 0.3px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  transition: all 0.18s;
+  white-space: nowrap;
+  font-family: 'Lato', sans-serif;
+}
+
+.cuisine-item:hover {
+  background: var(--primary);
+  color: rgb(255, 255, 255);
+}

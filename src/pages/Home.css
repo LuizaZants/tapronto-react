@@ -1,0 +1,51 @@
+.home {
+  min-height: 100vh;
+}
+
+.home-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--cream);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.home-section {
+  padding: 40px 0 32px;
+}
+
+.home-divider {
+  height: 1px;
+  background: var(--divider);
+  margin: 0 40px;
+}
+
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px 20px;
+}
+
+.meals-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .meals-grid { grid-template-columns: repeat(2, 1fr); }
+  .meals-grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .home-divider { margin: 0 16px; }
+}

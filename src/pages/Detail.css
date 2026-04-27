@@ -1,0 +1,322 @@
+.detail {
+  min-height: 100vh;
+}
+
+.detail-loading,
+.detail-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  gap: 16px;
+  color: var(--text-muted);
+}
+
+.detail-not-found a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.detail-hero {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+
+.detail-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, var(--background) 100%);
+}
+
+.detail-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px 60px;
+}
+
+.detail-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.detail-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--cream);
+  border: 1px solid var(--divider);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.detail-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.detail-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.detail-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 0;
+}
+
+.detail-tab {
+  background: none;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.detail-tab.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+.detail-tab:hover:not(.active) {
+  color: var(--text-dark);
+}
+
+.detail-tab-line {
+  height: 1px;
+  background: var(--divider);
+  margin-bottom: 28px;
+}
+
+/* Ingredientes */
+.detail-ingredients {
+  list-style: none;
+}
+
+.detail-ingredient-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--divider);
+}
+
+.detail-ingredient-item:last-child { border-bottom: none; }
+
+.detail-ingredient-dot {
+  color: var(--primary);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.detail-ingredient-name {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.detail-ingredient-measure {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Modo de preparo */
+.detail-translating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+  padding: 40px 0;
+}
+
+.detail-step {
+  margin-bottom: 28px;
+}
+
+.detail-step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.detail-step-badge {
+  background: var(--primary);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.detail-step-line {
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+}
+
+.detail-step-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: var(--text-dark);
+  line-height: 1.8;
+}
+
+/* Nutricional */
+.detail-nutrition-info {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: var(--cream);
+  border: 1px solid var(--divider);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.detail-nutrition h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.detail-nutrition-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.detail-nutrition-row {
+  margin-bottom: 18px;
+}
+
+.detail-nutrition-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.detail-nutrition-value {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.detail-nutrition-bar {
+  height: 6px;
+  background: var(--cream);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.detail-nutrition-bar-fill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+
+.detail-ingredients-wrap {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--divider);
+}
+
+.detail-ingredients-wrap h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.detail-ingredient-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.detail-ingredient-tag {
+  font-size: 12px;
+  color: var(--text-dark);
+  background: var(--cream);
+  border: 1px solid var(--divider);
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--cream);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 768px) {
+  .detail-content { padding: 0 16px 40px; }
+  .detail-hero { height: 260px; }
+  .detail-title { font-size: 24px; }
+}
+
+/* Botão favoritar */
+.detail-favorite-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  background: white;
+  color: var(--primary);
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.detail-favorite-btn:hover {
+  background: var(--cream);
+}
+
+.detail-favorite-btn.active {
+  background: var(--primary);
+  color: white;
+}
