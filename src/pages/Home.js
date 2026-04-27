@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  searchByCategory, searchByArea,
-  translateArea, translateCategory, translateDish
+  searchByCategory,
 } from '../services/mealService';
 import MealCard from '../components/MealCard';
 import SectionHeader from '../components/SectionHeader';

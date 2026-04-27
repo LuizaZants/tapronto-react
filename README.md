@@ -141,4 +141,4 @@ A aplicação está hospedada na Vercel:
 
 ## 👩‍💻 Autora
 
-Desenvolvido por **[Seu Nome]** — projeto individual da disciplina de Desenvolvimento Web.
+Desenvolvido por **Luiza Souza** — projeto individual da disciplina de Desenvolvimento Web.
