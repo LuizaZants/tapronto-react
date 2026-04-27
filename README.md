@@ -12,16 +12,14 @@ O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a
 
 ## Funcionalidades
 
--  **Home** com categorias, culinárias e seções de destaque
--  **Busca** por nome do prato ou ingrediente (em português!)
--  **Detalhes** de cada receita com ingredientes e modo de preparo traduzido
--  **Favoritos** salvos localmente no navegador
--  **10 culinárias** — Italiana, Brasileira, Japonesa e muito mais
--  **Rotas dinâmicas** — `/receita/:id`, `/categoria/:id`, `/culinaria/:id`
+- **Home** com categorias, culinárias e seções de destaque
+- **Busca** por nome do prato ou ingrediente (em português!)
+- **Detalhes** de cada receita com ingredientes e modo de preparo traduzido
+- **Favoritos** salvos localmente no navegador
+- **10 culinárias** — Italiana, Portuguesa, Japonesa e muito mais
+- **Rotas dinâmicas** — `/receita/:id`, `/categoria/:id`, `/culinaria/:id`
 
 ---
-
-## Prints da aplicação
 
 ## Prints da aplicação
 
@@ -37,7 +35,9 @@ O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a
 |---|---|---|
 | ![search](prints/printssearch.png) | ![search2](prints/printssearch2.png) | ![favorites](prints/printsfavorite.png) |
 
-##  Arquitetura
+---
+
+## Arquitetura
 
 ```
 src/
@@ -67,7 +67,7 @@ React Pages → mealService.js → TheMealDB API
 
 ---
 
-##  Tecnologias utilizadas
+## Tecnologias utilizadas
 
 | Tecnologia | Versão | Uso |
 |---|---|---|
@@ -80,7 +80,7 @@ React Pages → mealService.js → TheMealDB API
 
 ---
 
-##  Como rodar o projeto
+## Como rodar o projeto
 
 ### Pré-requisitos
 
@@ -90,7 +90,7 @@ React Pages → mealService.js → TheMealDB API
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/tapronto-react.git
+git clone https://github.com/LuizaZants/tapronto-react.git
 cd tapronto-react
 ```
 
@@ -116,21 +116,15 @@ npm run build
 
 ---
 
-##  Deploy
+## Deploy
 
 A aplicação está hospedada na Vercel:
 
-🔗 https://tapronto-react.vercel.app/
-
-> Para fazer deploy na Vercel:
-> ```bash
-> npm install -g vercel
-> vercel
-> ```
+**(https://tapronto-react.vercel.app)**
 
 ---
 
-##  API utilizada
+## API utilizada
 
 **[TheMealDB](https://www.themealdb.com/api.php)**
 
