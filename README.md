@@ -25,15 +25,15 @@ O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a
 
 | Home | Home 2 | Home 3 |
 |---|---|---|
-| ![home](prints/printshome.png.png) | ![home2](prints/printshome2.png.png) | ![home3](prints/printshome3.png.png) |
+| ![home](prints/printshome.png) | ![home2](prints/printshome2.png) | ![home3](prints/printshome3.png) |
 
 | Detalhe | Modo de Preparo | Nutricional |
 |---|---|---|
-| ![detail](prints/printsdetail.png.png) | ![detail2](prints/printsdetail2.png.png) | ![detail3](prints/printsdetail3.png.png) |
+| ![detail](prints/printsdetail.png) | ![detail2](prints/printsdetail2.png) | ![detail3](prints/printsdetail3.png) |
 
 | Busca | Busca 2 | Favoritos |
 |---|---|---|
-| ![search](prints/printssearch.png.png) | ![search2](prints/printssearch2.png.png) | ![favorites](prints/printsfavorite.png.png) |
+| ![search](prints/printssearch.png) | ![search2](prints/printssearch2.png) | ![favorites](prints/printsfavorite.png) |
 
 ---
 
