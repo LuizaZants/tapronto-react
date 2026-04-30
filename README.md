@@ -27,19 +27,23 @@ O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a
 |---|---|---|
 | ![home](prints/printshome.png) | ![home2](prints/printshome2.png) | ![home3](prints/printshome3.png) |
 
-| Detalhe | Modo de Preparo | Nutricional |
+| Home 4 | Detalhe | Modo de Preparo |
 |---|---|---|
-| ![detail](prints/printsdetail.png) | ![detail2](prints/printsdetail2.png) | ![detail3](prints/printsdetail3.png) |
+| ![home4](prints/printshome4.png) | ![detail](prints/printsdetail.png) | ![detail2](prints/printsdetail2.png) |
 
-| Busca | Busca 2 | Favoritos |
+| Nutricional | Busca | Busca 2 |
 |---|---|---|
-| ![search](prints/printssearch.png) | ![search2](prints/printssearch2.png) | ![favorites](prints/printsfavorite.png) |
+| ![detail3](prints/printsdetail3.png) | ![search](prints/printssearch.png) | ![search2](prints/printssearch2.png) |
+
+| Favoritos |
+|---|
+| ![favorites](prints/printsfavorite.png) |
 
 ---
 
 ## Arquitetura
 
-\```
+```
 src/
 ├── App.js                    # Rotas principais
 ├── index.js                  # Ponto de entrada
@@ -56,14 +60,14 @@ src/
     ├── Detail.js             # Detalhe da receita (rota dinâmica)
     ├── Search.js             # Busca de receitas
     └── Favorites.js          # Favoritos salvos
-\```
+```
 
 **Fluxo de dados:**
-\```
+```
 React Pages → mealService.js → TheMealDB API
                             → Google Translate API (tradução)
                             → localStorage (favoritos)
-\```
+```
 
 ---
 
@@ -89,30 +93,30 @@ React Pages → mealService.js → TheMealDB API
 
 ### 1. Clone o repositório
 
-\```bash
+```bash
 git clone https://github.com/LuizaZants/tapronto-react.git
 cd tapronto-react
-\```
+```
 
 ### 2. Instale as dependências
 
-\```bash
+```bash
 npm install
-\```
+```
 
 ### 3. Rode o projeto
 
-\```bash
+```bash
 npm start
-\```
+```
 
 Acesse: **http://localhost:3000**
 
 ### 4. Build para produção
 
-\```bash
+```bash
 npm run build
-\```
+```
 
 ---
 
