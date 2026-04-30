@@ -39,7 +39,7 @@ O **Tá Pronto!** é uma aplicação web desenvolvida em **React** que consome a
 
 ## Arquitetura
 
-```
+\```
 src/
 ├── App.js                    # Rotas principais
 ├── index.js                  # Ponto de entrada
@@ -56,14 +56,14 @@ src/
     ├── Detail.js             # Detalhe da receita (rota dinâmica)
     ├── Search.js             # Busca de receitas
     └── Favorites.js          # Favoritos salvos
-```
+\```
 
 **Fluxo de dados:**
-```
+\```
 React Pages → mealService.js → TheMealDB API
                             → Google Translate API (tradução)
                             → localStorage (favoritos)
-```
+\```
 
 ---
 
@@ -89,30 +89,30 @@ React Pages → mealService.js → TheMealDB API
 
 ### 1. Clone o repositório
 
-```bash
+\```bash
 git clone https://github.com/LuizaZants/tapronto-react.git
 cd tapronto-react
-```
+\```
 
 ### 2. Instale as dependências
 
-```bash
+\```bash
 npm install
-```
+\```
 
 ### 3. Rode o projeto
 
-```bash
+\```bash
 npm start
-```
+\```
 
 Acesse: **http://localhost:3000**
 
 ### 4. Build para produção
 
-```bash
+\```bash
 npm run build
-```
+\```
 
 ---
 
@@ -129,7 +129,6 @@ A aplicação está hospedada na Vercel:
 **[TheMealDB](https://www.themealdb.com/api.php)**
 
 - Base URL: `https://www.themealdb.com/api/json/v1/1`
-- Gratuita, sem autenticação
 - Endpoints usados:
   - `search.php?s={nome}` — busca por nome
   - `filter.php?c={categoria}` — filtra por categoria
